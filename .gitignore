@@ -6,3 +6,9 @@ __pycache__/
 .env
 .DS_Store
 .claude/plans/
+
+# History / temp files
+.history
+prompts.txt
+Histort.txt
+file.md
