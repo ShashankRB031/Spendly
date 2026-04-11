@@ -524,6 +524,61 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ------------------------------------------------------------------ */
+/* Terms and Conditions                                                */
+/* ------------------------------------------------------------------ */
+
+.terms-section {
+    min-height: calc(100vh - 60px - 100px);
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.terms-container {
+    max-width: 720px;
+    width: 100%;
+}
+
+.terms-title {
+    font-family: var(--font-display);
+    font-size: 2.5rem;
+    color: var(--ink);
+    margin-bottom: 0.5rem;
+}
+
+.terms-updated {
+    font-size: 0.875rem;
+    color: var(--ink-muted);
+    margin-bottom: 2.5rem;
+}
+
+.terms-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.terms-block {
+    background: var(--paper-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+}
+
+.terms-block h2 {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    color: var(--ink);
+    margin-bottom: 0.75rem;
+}
+
+.terms-block p {
+    font-size: 0.95rem;
+    color: var(--ink-muted);
+    line-height: 1.7;
+}
+
+/* ------------------------------------------------------------------ */
 /* Responsive                                                          */
 /* ------------------------------------------------------------------ */
 
