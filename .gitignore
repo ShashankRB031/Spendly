@@ -7,7 +7,7 @@ __pycache__/
 .DS_Store
 .claude/plans/
 
-# History / temp files
+# History / temp files (added by me)
 .history
 prompts.txt
 Histort.txt
